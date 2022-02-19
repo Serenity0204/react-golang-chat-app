@@ -1,0 +1,53 @@
+.ChatHistory {
+    background-color: lightblue;
+    margin: center;
+    padding: 50px;
+}
+.ChatHistory h2 {
+    margin: auto;
+    padding: auto;
+}
+
+.ChatInput {
+    padding-top: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.ChatInput input {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 98%;
+}
+
+
+.Header {
+    background-color: darkblue;
+    color: white;
+
+    max-width: 100%;
+    padding: 10px;
+}
+.Header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.Message {
+    display: block;
+    background-color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.Message.me {
+    color: white;
+    background-color: aqua;
+}
